@@ -1,14 +1,11 @@
 import './App.css';
-import {simpsons} from "./components/simpsons/data";
-import Simpsons from "./components/simpsons/Simpsons/Simpsons";
-
+import {Characters} from "./components/Characters/Characters";
 
 function App() {
   return (
     <div>
-      <Simpsons/>
-    </div>
-  );
+<Characters/>
+    </div>);
 }
 
 export default App;
