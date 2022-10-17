@@ -1,15 +1,18 @@
-// import {users} from "../../data";
+
 import User from "../user/User";
 import {useEffect, useState} from "react";
+import {getUser, getUsers} from "../../services/user.api.service";
+import {getUsersAxios} from "../../services/user.api.axios.service";
 
 export default function Users() {
     let [users, setUsers] = useState([]);
     let [user, setUser] = useState({})
 
-    const lift= (asd)=>{
-        setUser(asd)
+    const lift= (obj)=>{
+        setUser(obj)
     }
 
+    //простими фетчами
     // useEffect(() => {
     //
     //     fetch(`https://jsonplaceholder.typicode.com/users`)
@@ -17,21 +20,19 @@ export default function Users() {
     //         .then(item => {
     //             setUsers(item)
     //
-    //
     //         });
     //
     // }, [])
 
+
+//фетчами через сервіс
+//     useEffect(() => {
+//         getUsers().then(value => setUsers(value))
+//     }, []);
+
+//через аксіос
     useEffect(() => {
-
-        fetch(`https://jsonplaceholder.typicode.com/users`)
-            .then(value => value.json())
-            .then(item => {
-                setUsers(item)
-
-
-            });
-
+        getUsersAxios().then(value => setUsers(value.data))
     }, [])
 
 
