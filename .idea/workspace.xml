@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12681a5e-dc0b-4ced-bec0-c2e2e1f254cf" name="Changes" comment="konsp 1">
-      <change afterPath="$PROJECT_DIR$/src/components/user/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/users/Users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2022_21_19_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2022_21_19__Changes_.xml" beforeDir="false" />
+    <list default="true" id="12681a5e-dc0b-4ced-bec0-c2e2e1f254cf" name="Changes" comment="les2 konspwef">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/user/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/Users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
